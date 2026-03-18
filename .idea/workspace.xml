@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bb9a949-8029-4714-b720-d77eb538020b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/TreeHuffman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Huffman-Ejercicio-main/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Huffman-Ejercicio-main/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Huffman-Ejercicio-main/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Huffman-Ejercicio-main/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Huffman-Ejercicio-main/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Huffman-Ejercicio-main/docs/texto.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Huffman-Ejercicio-main/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Huffman-Ejercicio-main/src/main/java/org/hojatrabajo/HuffmanNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Huffman-Ejercicio-main/src/main/java/org/hojatrabajo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Huffman-Ejercicio-main/src/main/java/org/hojatrabajo/Reader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/HuffmanNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/HuffmanNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FrequencyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/FrequencyGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/TreeHuffman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/TreeHuffman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +40,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/implementsTree",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",

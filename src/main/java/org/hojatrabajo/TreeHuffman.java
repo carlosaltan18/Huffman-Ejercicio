@@ -114,5 +114,20 @@ public class TreeHuffman {
         System.out.println("╚═══════════╩══════════════════╝");
     }
 
+    public void imprimirEstadisticas(String textoOriginal, String bitsCodificados) {
+        int bitsOriginales  = textoOriginal.length() * 8;
+        int bitsComprimidos = bitsCodificados.length();
+        double ratio = 100.0 * (1.0 - (double) bitsComprimidos / bitsOriginales);
+
+        System.out.println("\n┌─────────────────────────────────┐");
+        System.out.println("│      ESTADÍSTICAS DE COMPRESIÓN  │");
+        System.out.println("├─────────────────────────────────┤");
+        System.out.printf("│ Caracteres originales : %7d  │%n", textoOriginal.length());
+        System.out.printf("│ Bits sin comprimir    : %7d  │%n", bitsOriginales);
+        System.out.printf("│ Bits comprimidos      : %7d  │%n", bitsComprimidos);
+        System.out.printf("│ Ahorro                : %6.2f%%  │%n", ratio);
+        System.out.println("└─────────────────────────────────┘");
+    }
+
 
 }
