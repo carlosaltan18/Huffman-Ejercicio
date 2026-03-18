@@ -3,23 +3,28 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class FrequencyGenerator {
+    Reader r = new Reader();
+    String texto = r.readFile("texto.txt");
 
-    public static void main(String[] args) {
-        String texto = "casa\n casa ";
+    public static Map<Character, Integer> getMap(String texto) {
+        Map<Character, Integer> mapaFrecuencias = new HashMap<>();
 
-        String resultado = getFrequencyTable(texto);
-
-        System.out.println(resultado);
-    }
-
-    public static String getFrequencyTable(String texto) {
         if (texto == null || texto.isEmpty()) {
-            return "";
+            return mapaFrecuencias;
         }
 
-        Map<Character, Integer> mapaFrecuencias = new HashMap<>();
         for (char c : texto.toCharArray()) {
             mapaFrecuencias.put(c, mapaFrecuencias.getOrDefault(c, 0) + 1);
+        }
+
+        return mapaFrecuencias;
+    }
+
+    public static String getString(String texto) {
+        Map<Character, Integer> mapaFrecuencias = getMap(texto);
+
+        if (mapaFrecuencias.isEmpty()) {
+            return "";
         }
 
         return mapaFrecuencias.entrySet().stream()
