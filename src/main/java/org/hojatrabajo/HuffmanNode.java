@@ -6,7 +6,7 @@ public class HuffmanNode implements Comparable<HuffmanNode> {
     HuffmanNode right;
     int frecuencia;
 
-    public HuffmanNode(char c, HuffmanNode left, HuffmanNode right) {
+    public HuffmanNode(char c, int frecuencia) {
         this.c = c;
         this.left = null;
         this.right = null;
