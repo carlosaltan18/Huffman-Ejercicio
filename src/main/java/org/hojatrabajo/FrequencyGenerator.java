@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class FrequencyGenerator {
     Reader r = new Reader();
-    String texto = r.readFile("texto.txt");
+    String texto = r.readFile("src/texto.txt");
 
     public static Map<Character, Integer> getMap(String texto) {
         Map<Character, Integer> mapaFrecuencias = new HashMap<>();

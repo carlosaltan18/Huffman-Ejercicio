@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bb9a949-8029-4714-b720-d77eb538020b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FrequencyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/FrequencyGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/FrequencyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/FrequencyGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/TreeHuffman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hojatrabajo/TreeHuffman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/texto.txt" beforeDir="false" afterPath="$PROJECT_DIR$/texto.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -56,6 +59,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Proyectos 2do año\proyectosAso\huffman-estructuras" />
+      <recent name="C:\Proyectos 2do año\proyectosAso\huffman-estructuras\src" />
+      <recent name="C:\Proyectos 2do año\proyectosAso\huffman-estructuras\src\main\java\org\hojatrabajo" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
